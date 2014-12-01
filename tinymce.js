@@ -60,9 +60,10 @@ angular.module('ui.tinymce', [])
                 updateView();
               }
             });
-            ed.on('blur', function(e) {
-                elm.blur();
-            });
+            // commenting out blur as not part of angular
+            // ed.on('blur', function(e) {
+            //     elm.blur();
+            // });
             // Update model when an object has been resized (table, image)
             ed.on('ObjectResized', function (e) {
               ed.save();
