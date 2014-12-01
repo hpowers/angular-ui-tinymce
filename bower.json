@@ -1,0 +1,25 @@
+{
+  "name": "angular-ui-tinymce-bowerDist",
+  "version": "0.0.5",
+  "homepage": "https://github.com/hpowers/angular-ui-tinymce",
+  "authors": [
+    "Hunter Powers <hunter@wiretheplanet.com>"
+  ],
+  "description": "angular-ui tinymce with working setup function",
+  "main": "tinymce.js",
+  "keywords": [
+    "tinymce"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.x",
+    "tinymce": "git@github.com:jozzhart/tinymce.git#4.0.22"
+  }
+}
