@@ -1,6 +1,6 @@
 {
   "name": "angular-ui-tinymce-bowerDist",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/hpowers/angular-ui-tinymce",
   "authors": [
     "Hunter Powers <hunter@wiretheplanet.com>"
@@ -20,6 +20,6 @@
   ],
   "dependencies": {
     "angular": "~1.x",
-    "tinymce": "git@github.com:jozzhart/tinymce.git#4.0.22"
+    "tinymce-dist": "~4.1.7"
   }
 }
