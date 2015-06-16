@@ -48,6 +48,12 @@ angular.module('ui.tinymce', [])
               ed.save();
               updateView();
             });
+            // Update model when attributes change such as background color or font color change
+            ed.on('SetAttrib', function (e) {
+              ed.save();
+              updateView();
+            });
+            
             // Update model on keypress
             ed.on('KeyUp', function (e) {
               ed.save();
